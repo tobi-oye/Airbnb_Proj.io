@@ -1,0 +1,291 @@
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+body{
+    margin: 0px;
+}
+@media screen and (max-width:450px){
+    a.covid_link{
+        text-decoration: underline;
+    }
+    .container_header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* color: white; */
+        background-image: url(../img/mobile/mobile1.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        text-align: center;
+        /* margin: 0px; */
+    }
+    .box{
+        width: 100%;
+        /* height: 50px; */
+        /* text-align: center; */
+        /* border: 3px solid black; */
+        margin: 0px;
+    }
+  
+    .covid{
+        /* margin-top: 0px; */
+        /* display: block; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        /* top: -30px; */
+        margin:0px;
+        height: 40px;
+        text-decoration-color: black;
+    }
+   input{
+       /* margin-top: 0px; */
+       display: flex;
+       /* top: -10px; */
+       position: relative;
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       height: 35px;
+       border-radius: 2em;
+   }
+   .search_pane{
+  position: relative;
+  contain: content;
+  padding-top: 10px;
+   }
+   .fa-search{
+       text-indent: 30px;
+       font-size: 18px;
+   }
+   .olympic_images{
+       position: relative;
+       padding-top: 20px;
+       /* top: 10px; */
+       /* height: 70px; */
+   }
+   .olympic_img{
+       max-width: 40%;
+       /* padding-top: 30px; */
+   }
+   .texts{
+       color:white;
+       font-weight: bold;
+       margin: 0px;
+   }
+   p{
+       font-size: 12px;
+   }
+   h4{
+       font-size: 30px;
+   }
+   h4,p{
+       margin: 10px;
+   }
+   .header_button{
+    background-color:white; 
+    color: black;
+    border: none;
+    /* color: white; */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1em;
+    font-weight: bold;
+   }
+   div.sliding_pictures{
+       width: 100%;
+       overflow: auto;
+   }
+   img.img_slide{
+       width: 100%;
+       border-radius: 1em 1em 0px 0px;
+   }
+   .bold_letters {
+       font-weight: bold;
+       font-size: 18px;
+       text-align: left;
+       padding-top: 10px;
+       margin-top: 10px;
+   }
+   .norm_letters{
+       font-size: 18px;
+       color: grey;
+       text-align: justify;
+
+   }
+
+   .slider{
+       /* width: 300px; */
+       width: 100%;
+       /* height: 300px; */
+       padding-top: 20px;
+       padding-left: 10px;
+       /* padding-bottom: 0px; */
+       /* margin-bottom: 0px; */
+       display:flex;
+       overflow-x: auto;
+       -webkit-overflow-scrolling: touch;
+       padding-bottom: 10px;
+   }
+   .slide{
+       /* width: 300px; */
+       flex-shrink: 0;
+       height: 100%;
+       width: 80%;
+       margin: 10px 10px 0px 10px;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   div.img_div{
+       height: 110px;
+       box-shadow: 1px 1px 1px 1px #888888;
+       /* box-shadow: 3px 3px 5px 6px #ccc; */
+   }
+   div.img_div,.img_div_2{
+    border-radius: 0em 0em 10px 10px;
+    width: 100%;
+       /* top: 10px; */
+    position: relative;
+   }
+   .black_div{
+       background-color: black;
+       color: white;
+       width: 100%;
+       margin: 0px;
+       /* font-size: 18px; */
+       height:auto;
+       /* content: contain; */
+       contain: content;
+   }
+   .black_bold_letters,.black_norm_letters{
+       
+       text-align: justify;
+       color: white;
+       width: 80%;
+       padding-left: 20px;
+   }
+   .black_bold_letters{
+       padding-top: 40px;
+       
+       font-weight: bold;
+       font-size: 25px;
+   }
+   .black_norm_letters{
+       font-size: 18px;
+   }
+
+   .img_div_2{
+       height: 80px;
+       background-color:#222222;
+   }
+   .black_button{
+       display: flex;
+       height: 30px;
+       width: auto;
+       padding-top: 5px;
+       border: 1px solid white;
+       background-color: black;
+       color: white;
+       margin: 10px 0px 20px 40px;
+       border-radius: 5px;
+   }
+   .white_bold_letters{
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+   }
+   .grey_norm_letters{
+    font-size: 18px;
+    color: grey;
+   }
+.white_bold_letters,.grey_norm_letters{
+    text-align: justify;
+    margin-left: 20px;
+}
+.white_button{
+    display: flex;
+    height: 30px;
+    width: auto;
+    padding-top: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    margin: 10px 0px 20px 40px;
+    border-radius: 5px;
+}
+.black_lives{
+    background-color: black;
+    contain: content;
+    /* height: 1250px; */
+}
+.blank_div{
+    height: 280px;
+}
+
+.desitnation_heading{
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+}
+
+.cities,.desitnation_heading{
+    /* padding-top: 40px; */
+    font-weight: bold;
+    /* font-size: 25px; */
+    color: black;
+    text-align: justify;
+    margin-left: 20px;
+    /* border-top: 1px solid grey; */
+    border-bottom: 1px solid grey;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cities{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.ending{
+    background-color:#d3d3d3;
+    text-align: justify;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.footer_header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.about,.community,.host,.support{
+    border-bottom: 1px solid grey;
+}
+
+div.box.about {
+    margin-top: -10px;
+}
+}
