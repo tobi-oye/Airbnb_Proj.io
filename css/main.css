@@ -280,6 +280,7 @@ a{
 .footer_header{
     font-size: 16px;
     font-weight: bold;
+    padding-top: 20px;
 }
 .about,.community,.host,.support{
     border-bottom: 1px solid grey;
@@ -291,5 +292,10 @@ div.box.about {
 
 p.cities.lastone {
     padding-bottom: 50px;
+}
+
+.footer1,.footer2{
+    text-align: left;
+    margin: 10px;
 }
 }
