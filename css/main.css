@@ -288,4 +288,8 @@ a{
 div.box.about {
     margin-top: -10px;
 }
+
+p.cities.lastone {
+    padding-bottom: 50px;
+}
 }
