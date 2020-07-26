@@ -152,6 +152,7 @@ body{
    div.img_div{
        height: 110px;
        box-shadow: 1px 1px 1px 1px #888888;
+       margin-bottom: 20px;
        /* box-shadow: 3px 3px 5px 6px #ccc; */
    }
    div.img_div,.img_div_2{
