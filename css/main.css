@@ -8,6 +8,14 @@ body{
     margin: 0px;
 }
 @media screen and (max-width:450px){
+    .wrapper:fullscreen{
+        width: 100vw;
+        margin: 0px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+        font-size: 14px;
+        line-height: 1.43;
+        padding: 0px;
+    }
     a.covid_link{
         text-decoration: underline;
     }
@@ -27,7 +35,7 @@ body{
         /* margin: 0px; */
     }
     .box{
-        width: 100%;
+        /* width: 100%; */
         /* height: 50px; */
         /* text-align: center; */
         /* border: 3px solid black; */
@@ -129,7 +137,7 @@ body{
 
    .slider{
        /* width: 300px; */
-       width: 100%;
+       /* width: 100%; */
        /* height: 300px; */
        padding-top: 20px;
        padding-left: 10px;
@@ -272,6 +280,7 @@ body{
     text-decoration: none;
     color: black;
     margin-top: 0px;
+    position: relative;
 }
 a{
     text-decoration: none;
