@@ -16,25 +16,26 @@
     src: url(../font/circular/circular-book.otf);
     src: url(../font/circular/circular-medium-italic.otf);
     src: url(../font/circular/circular-medium.otf);
-    font-style: normal;
+    /* font-style: normal; */
     /* font-size: 10px; */
 }
-@font-face{
+/* @font-face{
     font-family: circular;
     src: url(../font/circular/circular-black.otf);
     font-style: normal;
-}
+} */
 body{
     margin: 0px;
 }
 @media screen and (max-width:450px){
-    .wrapper:fullscreen{
+    .wrapper{
         width: 100vw;
         margin: 0px;
         font-family: circular;
         font-size: 14px;
         line-height: 1.43;
         padding: 0px;
+        /* border: 1px solid black; */
         /* font-family:; */
     }
     a.covid_link{
@@ -87,9 +88,10 @@ body{
        border-radius: 2em;
    }
    .search_pane{
-  position: relative;
+  /* position: relative; */
   contain: content;
   padding-top: 10px;
+  position: sticky; top: 0px;
    }
    .fa-search{
        text-indent: 8px;
@@ -297,7 +299,7 @@ body{
     margin-bottom: 10px;
 }
 .ending{
-    background-color:#d3d3d3;
+    background-color:hsl(0,0,96);
     text-align: justify;
     padding-left: 20px;
     text-decoration: none;
@@ -317,7 +319,7 @@ a{
     padding-top: 20px;
 }
 .about,.community,.host,.support{
-    border-bottom: 1px solid grey;
+    border-bottom: 0.5px solid grey;
 }
 
 div.box.about {
