@@ -87,11 +87,15 @@ body{
        height: 35px;
        border-radius: 2em;
    }
+
+   input:focus{
+       outline: none;
+   }
    .search_pane{
   /* position: relative; */
   contain: content;
   padding-top: 10px;
-  position: sticky; top: 0px;
+  /* position: sticky; top: 0px; */
    }
    .fa-search{
        text-indent: 8px;
@@ -152,7 +156,7 @@ body{
        margin-top: 10px;
    }
    .norm_letters{
-       font-size: 18px;
+       font-size: 13px;
        color: grey;
        text-align: justify;
 
@@ -175,13 +179,13 @@ body{
        /* width: 300px; */
        flex-shrink: 0;
        height: 100%;
-       width: 80%;
+       width: 60%;
        margin: 10px 10px 0px 10px;
        display: flex;
        flex-wrap: wrap;
    }
    div.img_div{
-       height: 110px;
+       height: 100px;
        box-shadow: 1px 1px 1px 1px #888888;
        margin-bottom: 20px;
        /* box-shadow: 3px 3px 5px 6px #ccc; */
