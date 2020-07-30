@@ -159,6 +159,7 @@ body{
        font-size: 13px;
        color: grey;
        text-align: justify;
+       padding-bottom: 10px;
 
    }
 
@@ -185,7 +186,7 @@ body{
        flex-wrap: wrap;
    }
    div.img_div{
-       height: 87px;
+       /* height: 87px; */
        box-shadow: 0px 0px 13px -2px #888888;
        margin-bottom: 20px;
        /* box-shadow: 3px 3px 5px 6px #ccc; */
@@ -195,8 +196,8 @@ body{
     width: 100%;
        /* top: 10px; */
     position: relative;
-    height: 120px;
-    padding-bottom: 20px;
+    /* height: 120px; */
+    /* padding-bottom: 20px; */
    }
    .black_div{
        background-color: black;
